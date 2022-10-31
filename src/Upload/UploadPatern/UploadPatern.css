@@ -1,0 +1,22 @@
+.ant-upload.ant-upload-select-picture-card {
+    width: 104px;
+    height: 104px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    vertical-align: top;
+    background-color: black;
+    border: 2px dashed rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border-color 0.3s;
+
+}
+
+.ant-upload.ant-upload-select-picture-card:hover {
+    border: 2px dashed rgba(255, 255, 255, 0.6);
+}
+
+.ant-upload {
+    color: rgba(255, 255, 255, 0.6);
+}

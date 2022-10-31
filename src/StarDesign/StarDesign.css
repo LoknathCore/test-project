@@ -1,0 +1,43 @@
+.container {
+    position: relative;
+    margin-top: 100px;
+}
+
+.star {
+    display: block;
+    color: red;
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid red;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+}
+
+.star::after {
+    border-bottom: 80px solid red;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    transform: rotate(-35deg);
+}
+
+.star::before {
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid red;
+    border-left: 100px solid transparent;
+    position: absolute;
+    content: '';
+    display: block;
+    left: -105px;
+    top: 3px;
+    height: 0;
+    width: 0;
+    transform: rotate(-70deg);
+}
